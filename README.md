@@ -1,5 +1,6 @@
-openCPQ Demo - Components
-=========================
+openCPQ Components
+==================
+*A demo example for [openCPQ](https://github.com/webXcerpt/openCPQ).*
 
 This demo lists all available primitive and compound components from openCPQ, as well as some application-specific components.
 
