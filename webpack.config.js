@@ -20,7 +20,7 @@ var config = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.js$/, loader: "babel?stage=0" },
+			{ test: /\.js$/, exclude: /node_modules/, loader: "babel?stage=0" },
 			{ test: /\.json$/, loader: "json" },
 			{ test: /\.css$/, loader: "style!css" },
 			{ test: /\.less$/, loader: "style!css!less" },
